@@ -23,6 +23,8 @@ import sys
 
 from datetime import datetime
 
+sys.path.append('../')
+
 from chafon_rfid.base import CommandRunner, ReaderCommand, ReaderInfoFrame, ReaderResponseFrame, ReaderType
 from chafon_rfid.command import (
     G2_TAG_INVENTORY, CF_GET_READER_INFO, CF_SET_BUZZER_ENABLED, CF_SET_RF_POWER,

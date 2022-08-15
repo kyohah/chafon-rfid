@@ -2,6 +2,8 @@
 
 import sys
 
+sys.path.append('../')
+
 from chafon_rfid.base import CommandRunner, ReaderCommand, ReaderInfoFrame
 from chafon_rfid.command import CF_GET_READER_INFO
 from chafon_rfid.transport import TcpTransport

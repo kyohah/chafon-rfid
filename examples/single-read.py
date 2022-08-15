@@ -8,6 +8,10 @@
 # format, and instead use the lines immediately preceding them (get_inventory_288 and
 # G2InventoryResponseFrame288)
 
+import sys
+
+sys.path.append('../')
+
 from chafon_rfid.base import CommandRunner, ReaderCommand, ReaderInfoFrame
 from chafon_rfid.command import CF_GET_READER_INFO, G2_TAG_INVENTORY
 from chafon_rfid.response import G2_TAG_INVENTORY_STATUS_MORE_FRAMES

@@ -6,6 +6,8 @@ import sys
 
 from math import floor
 
+sys.path.append('../')
+
 from chafon_rfid.base import CommandRunner, ReaderCommand, ReaderResponseFrame
 from chafon_rfid.command import G2_WRITE_EPC
 from chafon_rfid.transport import TcpTransport
